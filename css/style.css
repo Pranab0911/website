@@ -1,0 +1,145 @@
+*{
+  margin: 0px;
+  padding: 0px
+}
+:root{
+  --navbar-height: 58px;
+}
+/*logo*/
+#logo{
+  margin: 14px 6px;
+}
+#logo img{
+  margin: -29px -1px;
+  height: 126px;
+/*navbar*/
+}
+#navbar{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 0px;
+}
+#navbar::before{
+  content: "";
+  background-color: #a1b1b1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 3.6;
+  z-index: -11;
+}
+/*list */
+#navbar ul{
+  display: flex;
+}
+#navbar ul li {
+  
+  list-style: none;
+  font-size: 1.4rem;
+}
+#navbar ul li a{
+  color: white;
+  display: block;
+  padding: 23px 23px;
+  border-radius: 20px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+#navbar ul li a:hover{
+  color:black;
+   background-color: rgb(199, 164, 164);
+  
+}
+/*home */
+#home{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  height: 623px;
+  justify-content: center;
+  align-items: center;
+}
+#home::before{
+  content: "";
+  background: url(../howcuttingdo.jpg)no-repeat center center/cover;
+  position: absolute;
+  height: 100%;
+  width:100%;
+  top: 0px;
+  left: 0px;
+  opacity: 3.6;
+  z-index: -11;
+
+}
+
+#home h1{
+  text-align: center;
+  color: white;
+  font-family: 'Redressed', cursive;
+}
+#home p{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: 'Redressed', cursive;
+}
+/*utillities*/
+.h-primary{
+  font-size: 3.4rem;
+  padding: 48px 23px;
+
+}
+.h-secondary{
+  font-size: 2.4rem;
+  padding: 23px 23px;
+
+}
+
+.btn{
+  padding: 8px 17px;
+  border: 2px solid white;
+  background-color: #c89a98;
+  margin: 15px 12px;
+  font-size: 1.2rem;
+    border-radius: 13%;
+    cursor: pointer;
+}
+.btn:hover{
+  color: aliceblue;
+}
+.center{
+  text-align: center;
+}
+/*services*/
+
+
+#services{
+  display: flex;
+  margin: 23px;
+}
+#services .box{
+  border: 2px solid red;
+  margin: 3px 6px;
+  border-radius: 1%;
+  background-color: rgb(212, 216, 230);
+  font-family: 'Redressed', cursive;
+
+}
+#services .box img{
+  height: 180px;
+  margin: auto;
+  display: block;
+  
+}
+/*clients*/
+#client-section{
+
+}
+#clients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
